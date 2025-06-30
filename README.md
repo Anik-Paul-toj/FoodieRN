@@ -1,4 +1,4 @@
-# Recipe Menu 🍲
+# Foodie🍲
 
 A beautiful and modern React Native app to discover, browse, and save your favorite recipes! Built for food lovers who want to explore new flavors and manage their favorite dishes easily.
 
