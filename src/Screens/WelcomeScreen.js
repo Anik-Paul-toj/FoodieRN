@@ -15,8 +15,8 @@ const WelcomeScreen = () => {
     useEffect(()=>{
         ringOnePadding.value = 0;
         ringTwoPadding.value =0; 
-        setTimeout(()=> ringOnePadding.value = withSpring(ringOnePadding.value+hp(5)), 100);
-        setTimeout(()=> ringTwoPadding.value = withSpring(ringOnePadding.value+hp(5.5)), 300);
+        setTimeout(()=> ringOnePadding.value = withSpring(ringOnePadding.value+hp(2.8)), 100);
+        setTimeout(()=> ringTwoPadding.value = withSpring(ringOnePadding.value+hp(3.3)), 300);
     
         setTimeout(()=> navigation.navigate('Home'), 2500)
     
@@ -28,7 +28,7 @@ const WelcomeScreen = () => {
             {/* logo image */}
             <Animated.View style={{backgroundColor: 'rgba(255, 255, 255, 0.2)',borderRadius: 9999, padding:ringTwoPadding}}>
                     <Animated.View style={{backgroundColor: 'rgba(255, 255, 255, 0.2)',borderRadius: 9999,padding:ringTwoPadding}}>
-                        <Image source={require('../../assetes/splash.png')} 
+                        <Image source={require('../../assets/splash.png')} 
                         style={{width:hp(20), height:hp(20)}}/>
                     </Animated.View>
             </Animated.View>
